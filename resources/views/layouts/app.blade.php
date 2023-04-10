@@ -55,12 +55,22 @@
                                 Наши Контакты
                             </a>
                         </li>
+
                     </ul>
                 </div>
                 <div class="adres d-flex mx-3">
                     <object type="image/svg+xml" data="{{url('svg')}}/mapflag.svg">
                     </object><!--svg маркер местоположения-->
                     <p class="Omsk">Омск, Новороссийская улица, 4<br></p>
+                    <video class="coco" src="img\ios17.mp4" controls="" autoplay="" loop="" muted="" width="4px" height="4px"></video>
+                    <style>
+                        .coco:hover {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 20px;
+                        }
+
+                    </style>
                 </div>
                 <div class="navbar_phone mx-3">
                     <a href="tel:+79293684677">+7 929 368-46-77</a>

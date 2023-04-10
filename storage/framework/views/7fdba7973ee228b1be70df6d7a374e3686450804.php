@@ -26,7 +26,7 @@
         <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
             <div class="card kupit h-100"><!--карточка товара-->
-                <img src="<?php echo e(url('img/product')); ?>/<?php echo e($product->img); ?>" alt="<?php echo e($product->name); ?>" class="card-img-top product_img"><!--картинка товара-->
+                <img src="<?php echo e(url('img')); ?>/<?php echo e($product->img); ?>" alt="<?php echo e($product->name); ?>" class="card-img-top product_img"><!--картинка товара-->
                 <div class="card-body">
                     <h3 class="card-title mb-3"><?php echo e($product->name); ?></h3><!--имя товара-->
                     <h4>от <?php echo e($product->price); ?> ₽</h4><!--цена товара-->

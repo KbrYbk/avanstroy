@@ -6,7 +6,7 @@
     <div class="blck card"><!--карточка-->
         <div class="row align-items-center justify-content-center"><!--делает объекты в карточке горизонтально-->
             <div class="col-md-3"><!--колонка внутри карточки с картинкой-->
-                <img class="w-100" src="{{url('img/product')}}/{{$product->img}}" alt="{{$product->name}}"><!--картинка товара-->
+                <img class="w-100" src="{{url('img')}}/{{$product->img}}" alt="{{$product->name}}"><!--картинка товара-->
             </div>
             <div class="col-md-8"><!--колонка внутри карточки с именем, описанием и ценой товара-->
                 <div class="card-body">

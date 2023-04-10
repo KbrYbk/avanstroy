@@ -17,7 +17,7 @@
         @foreach($products as $product)
         <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
             <div class="card kupit h-100"><!--карточка товара-->
-                <img src="{{url('img/product')}}/{{$product->img}}" alt="{{$product->name}}" class="card-img-top product_img"><!--картинка товара-->
+                <img src="{{url('img')}}/{{$product->img}}" alt="{{$product->name}}" class="card-img-top product_img"><!--картинка товара-->
                 <div class="card-body">
                     <h3 class="card-title mb-3">{{$product->name}}</h3><!--имя товара-->
                     <h4>от {{$product->price}} ₽</h4><!--цена товара-->
